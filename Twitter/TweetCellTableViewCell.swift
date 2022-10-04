@@ -13,8 +13,8 @@ class TweetCellTableViewCell: UITableViewCell {
     @IBOutlet weak var profileImageView: UIImageView!
     @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var tweetContent: UILabel!
-    @IBOutlet weak var retweetButton: UIButton!
     @IBOutlet weak var favButton: UIButton!
+    @IBOutlet weak var retweetButton: UIButton!
     
     var favorited:Bool = false
     var tweetId:Int = -1
